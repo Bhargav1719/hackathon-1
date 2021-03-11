@@ -1,0 +1,155 @@
+*{
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+.fade-in , body{ 
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    50% { 
+        opacity: 0.5; 
+    } 
+    100%{
+        opacity: 1;
+    }
+} 
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    font-size: 14px;
+    font-family: "Josefin Sans";
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    opacity: 0.7;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  .container{
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+
+.modal{
+    color: rgb(13, 119, 103);
+}
+
+.nav-tabs .nav-link.active{
+    color: rgb(13, 119, 103);
+}
+
+.btn{
+    background-color: blue;
+    border: 1px solid  rgb(13, 119, 103);
+    color: white;
+    transition: all 0.5s;
+}
+
+.btn:hover, .btn:focus{
+    background-color:green;
+    color: black;
+    letter-spacing: 1.5px;
+    border: 1px solid blue;
+}
+
+#update_contact_button:hover{
+    letter-spacing: inherit !important;
+}
+
+#update_contact_button:focus{
+    letter-spacing: inherit !important;
+}
+
+th,tr{
+    text-align: center;
+}
+
+.form-control{
+    border: 1px solid  rgb(13, 119, 103);
+}
+
+.form-control:focus{
+    border: 2px solid  rgb(13, 119, 103);
+}
+
+.form-control:hover{
+    border-color:#25C16F;
+    border: 2px solid  rgb(13, 119, 103);
+}
+
+
+.bg-warning{
+    color: black !important;
+}
+
+#alert{
+    letter-spacing: 1.5px;
+}
+
+#logout-btn{
+    transition: all 0.5s;
+    letter-spacing: inherit !important;
+}
+
+#logout-btn:hover{
+    border: 0px solid transparent;
+    letter-spacing: inherit !important;
+    
+}
+
+.create-fields{
+    margin: auto; margin-top: 2%; margin-bottom: 2%;
+     background-color:rgb(255, 255, 255); 
+     padding: 1%;
+     color:rgb(13, 119, 103); 
+     border-radius: 15px !important;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+     transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.create-fields form{
+    padding: 1% 6%;
+}
+
+.create-fields:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover{
+    border-radius: 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.table{
+    color: yellow;
+}
